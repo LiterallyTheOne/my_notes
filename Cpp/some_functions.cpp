@@ -7,7 +7,6 @@
  * @param a vector that needs to be sorted
  *
  * @return a vector of sorted arguments
-
 */
 std::vector<int> arg_sort(std::vector<int> a)
 {

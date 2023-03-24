@@ -25,4 +25,5 @@ Data that we use to test our trained model.
 
 ## Underfit
 
-* Train, validation and results: Bad
+* Train, validation and test results: Bad
+

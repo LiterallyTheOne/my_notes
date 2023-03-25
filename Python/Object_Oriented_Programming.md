@@ -37,9 +37,9 @@ class Rectangle(Polygon):
 
 ```
 
-*[abstraction code](abstraction.py)*
+*[abstraction code](codes/src/abstraction.py)*
 
-*[abstraction test](tests/test_abstraction.py)*
+*[abstraction test](codes/tests/test_abstraction.py)*
 
 ## Encapsulation
 

@@ -1,4 +1,4 @@
-from ..some_functions import *
+from ..src.some_functions import *
 
 
 def test_arg_sort_with_integers():

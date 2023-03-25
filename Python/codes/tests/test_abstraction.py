@@ -1,4 +1,4 @@
-from ..abstraction import Polygon, Triangle, Rectangle
+from ..src.abstraction import Polygon, Triangle, Rectangle
 
 
 def test_triangle():

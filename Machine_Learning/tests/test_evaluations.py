@@ -1,4 +1,4 @@
-from evaluations import mae,mse
+from ..evaluations import mae,mse
 
 
 def test_mae_1():

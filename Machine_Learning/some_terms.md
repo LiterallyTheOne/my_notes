@@ -33,7 +33,7 @@ Data that we use to test our trained model.
 
 ## Supervised learning
 
-We use the provided ground truth in the training proccess.
+We use the provided ground truth in the training process.
 
 Example:
 
@@ -41,7 +41,7 @@ Example:
 
 ## Unsupervised learning
 
-We don't use the provided or not provided ground truth in the training proccess.
+We don't use the provided or not provided ground truth in the training process.
 
 Example:
 

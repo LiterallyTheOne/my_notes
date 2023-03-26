@@ -5,7 +5,7 @@ in python which I found useful.
 
 [some functions code](codes/src/some_functions.py)
 
-[some functions code](codes/tests/test_some_functions.py)
+[some functions tests](codes/tests/test_some_functions.py)
 
 ## arg sort
 

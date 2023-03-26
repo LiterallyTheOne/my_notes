@@ -12,8 +12,8 @@ We define a general definition named: `Polygon`.
 Our `Polygon` has a function called: `get_angles`.
 This function returns how many angles a `Polygon` has.
 Now we define a `Triangle` function, which is a `Polygon` with
-3 angles. So in this implementation, we return 3, in `get_angles` function.
-If we define a `Square`, we return 4, in `get_angles` function.
+3 angles. So in this implementation, we return 3, in the `get_angles` function.
+If we define a `Square`, we return 4, in the `get_angles` function.
 
 ```python
 

@@ -1,22 +1,26 @@
 # Some terms in Machine learning
 
+## ground truth
+
+The provided True answers
+
 ## Train Data
 
 Data that we use to train our model.
 
-* labels: available
+* ground_truth: available
 
 ## Validation Data
 
 Data that we use to validate our trained model.
 
-* labels: available
+* ground_truth: available
 
 ## Test Data
 
 Data that we use to test our trained model.
 
-* labels: unavailable
+* ground_truth: unavailable
 
 ## Overfit
 

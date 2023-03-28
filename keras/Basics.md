@@ -1,6 +1,6 @@
 # Keras
 
-Keras is a package for python which provides an interface
+Keras is a package for python that provides an interface
 for artificial intelligence.
 
 ## Make one neuron in Keras
@@ -24,5 +24,5 @@ code source: [Kaggle, Deep learning course](https://www.kaggle.com/code/ryanholb
 
 ## Tensor
 
-Tensor is a data structure like a `numpy` array which is designed
-to work better with `gpu`s and `tpu`s.
+Tensor is a data structure like a `NumPy` array which is designed
+to work better with `GPU`s and `TPU`s.

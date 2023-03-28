@@ -46,3 +46,11 @@ We don't use the provided or not provided ground truth in the training process.
 Example:
 
 * Clustering
+
+## Classification
+
+We classify the input into some labels.
+
+## Regression
+
+We are trying to adjust a formula, with the given input, to get the best numeric output.

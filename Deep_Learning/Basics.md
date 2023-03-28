@@ -5,7 +5,7 @@ really deep layers of computations.
 
 ## Neuron
 
-Every unit in a `neural network` is called: `neuron`.
+Every unit in a `neural network` is called a `neuron`.
 
 ### Linear neuron
 
@@ -18,23 +18,23 @@ $$y = xw + b$$
 
 ## Layer
 
-`Layer` is a set of `neurons`.
+A `layer` is a set of `neurons`.
 
 [//]: # (TODO add a  figure)
 
 ### Dense layer (fully-connected layer)
 
-`Dense layer` (`fully-connected layer`) is a `layer` which all its neurons
-have the same input which is that input is the output of the previous layer.
+A `dense layer` (`fully-connected layer`) is a `layer` which all its neurons
+have the same input. The input of each `dense layer` is the output of the previous layer.
 
 [//]: # (TODO add a  figure)
 
 ## Activation functions
 
-`Activations functions` are some functions that we applu to the output of
+`Activations functions` are some functions that we apply to the output of
 each computational layer.
 
-The purpose of each `activation function`, is to make the output of each
+The purpose of each `activation function` is to make the output of each
 computational layer, nonlinear.
 
 [//]: # (TODO make the purpose more general)

@@ -21,3 +21,8 @@ code source: [Kaggle, Deep learning course](https://www.kaggle.com/code/ryanholb
 
 * units: number of neurons
 * input_shape: the size of the input
+
+## Tensor
+
+Tensor is a data structure like a `numpy` array which is designed
+to work better with `gpu`s and `tpu`s.

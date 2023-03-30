@@ -6,14 +6,14 @@ Different methods that we use to evaluate our model
 
 Mean Absolute Error
 
-$$ \frac{\sum_{i=1}^{n} |y_i-p_i|}{n} $$
+$$ \frac{1}{n}\sum_{i=1}^{n} |y_i-p_i| $$
 
 * n: number of data
 * y: labels
 * p: predictions
 * i: iterator
 
-### mae in scikit-learn
+### MAE in scikit-learn
 
 ```python
 
@@ -25,14 +25,14 @@ from sklearn.metrics import mean_absolute_error
 
 Mean Squared Error
 
-$$ \frac{\sum_{i=1}^{n} (y_i-p_i)^2 }{n} $$
+$$ \frac{1}{n}\sum_{i=1}^{n} (y_i-p_i)^2 $$
 
 * n: number of data
 * y: labels
 * p: predictions
 * i: iterator
 
-### mse in scikit-learn
+### MSE in scikit-learn
 
 ```python
 

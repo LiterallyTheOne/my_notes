@@ -49,3 +49,46 @@ $$ max(0,x) $$
 * x: input
 
 [//]: # (TODO add plot of ReLU)
+
+## Loss function
+
+The `loss function` Measures how much different our results and `ground truth` are.
+
+example:
+
+* MAE (Mean Absolute Error)
+
+## Optimizer
+
+The `optimizer` tries to decrease the result of the `loss function`.
+
+## Minibatch
+
+A sample iteration of all training data.
+
+* small batch: Because weights are getting an update after each batch,
+  if we have a small batch size, the updates will be so noisy.
+
+## epoch
+
+A complete iteration of all training data.
+
+## Learning rate
+
+A `learning rate` (alpha) is a hyperparameter that controls how much
+the estimated error should apply to our weights.
+
+* small learning rate: makes the fitting take longer
+* high learning rate: we might lose the optimal answer
+
+## Huber loss
+
+pass
+
+## Stochastic Gradient Descent
+
+pass
+
+## Adam optimizer
+
+pass

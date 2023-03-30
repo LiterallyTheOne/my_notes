@@ -36,3 +36,34 @@ model = keras.Sequential([
 
 Tensor is a data structure like a `NumPy` array which is designed
 to work better with `GPU`s and `TPU`s.
+
+## Model compile
+
+example:
+
+```python
+
+model.compile(
+    optimizer="adam",
+    loss="mae"
+)
+
+```
+
+[source of the code](https://www.kaggle.com/)
+
+## Model fit with the batch size and epoch
+
+example:
+
+```python
+
+model.fit(
+    x_train, y_train,
+    validation_data=(x_validation, y_validation),
+    batch_size=256,
+    epochs=10
+)
+```
+
+[source of the code](https://www.kaggle.com/)

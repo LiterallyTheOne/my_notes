@@ -67,3 +67,45 @@ model.fit(
 ```
 
 [source of the code](https://www.kaggle.com/)
+
+## EarlyStopping
+
+example:
+
+```python
+
+from tensorflow.keras.callbacks import EarlyStopping
+
+early_stopping = EarlyStopping(
+    min_delta=0.001, # minimium amount of change to count as an improvement
+    patience=20, # how many epochs to wait before stopping
+    restore_best_weights=True,
+)
+
+```
+
+[source of the code](https://www.kaggle.com/)
+
+## Drop out layer
+
+We put dropout before the layer that we want dropout to happen in it.
+
+```python
+
+from tensorflow.keras import layers
+
+layer = layers.Dropout(rate=r)
+
+```
+
+* rate (float): rate of dropout
+
+## Batch normalization layer
+
+```python
+
+from tensorflow.keras import layers
+
+layer = layers.BatchNormalization()
+
+```

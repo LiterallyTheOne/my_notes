@@ -92,3 +92,24 @@ pass
 ## Adam optimizer
 
 pass
+
+## Model Capacity
+
+size and complexity of a model.
+
+In `neural network`s, mostly, capacity refers to the number of `neuron`s and how
+they are connected together.
+
+## how to deal with underfitting
+
+* Adding more layers (deeper): Learning takes more time, adds more nonlinearity
+* Add more `neuron`s to a layer (wider): Learning takes less time
+
+## Dropout
+
+We randomly drop out some `neuron`s from our neural network to
+prevent overfitting.
+
+## Batch normalization
+
+We normalize each batch according to its own `mean` and `standard deviation`.

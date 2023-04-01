@@ -39,3 +39,9 @@ $$ \frac{1}{n}\sum_{i=1}^{n} (y_i-p_i)^2 $$
 from sklearn.metrics import mean_squared_error
 
 ```
+
+## Accuracy
+
+Number of correct predictions divided by all the predictions.
+
+$$ Accuracy = \frac{TrueTrue}{All} $$

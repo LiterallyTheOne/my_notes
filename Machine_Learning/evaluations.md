@@ -45,3 +45,7 @@ from sklearn.metrics import mean_squared_error
 Number of correct predictions divided by all the predictions.
 
 $$ Accuracy = \frac{TrueTrue}{All} $$
+
+## Cross entropy
+
+$$ H(p,q)=-\sum_{x \in X}p(x) log(q(x)) $$

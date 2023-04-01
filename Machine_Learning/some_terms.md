@@ -54,3 +54,9 @@ We classify the input into some labels.
 ## Regression
 
 We are trying to adjust a formula, with the given input, to get the best numeric output.
+
+## Sigmoid function
+
+[//]: # (TODO change its position)
+
+$$ S(x)= \frac{1}{1+e^{-x}} $$

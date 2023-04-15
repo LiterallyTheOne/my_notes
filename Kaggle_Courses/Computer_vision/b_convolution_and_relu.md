@@ -68,3 +68,60 @@ conv_layer = tf.keras.layers.Conv2D(filters=64, kernel_size=3, activation='relu'
 Condense the result to highlight the
 features.
 
+## some kernels
+
+### Edge detection
+
+```python
+import numpy as np
+
+edge = np.array([
+    [-1, -1, -1],
+    [-1, 8, -1],
+    [-1, -1, -1],
+])
+```
+
+### Sobel
+
+```python
+import numpy as np
+
+sobel_vertical = np.array([
+    [-1, -2, -1],
+    [0, 0, 0],
+    [1, 2, 1]
+])
+
+sobel_horizontal = np.array([
+    [-1, 0, 1],
+    [-2, 0, 2],
+    [-1, 0, 1]
+])
+
+```
+
+### Emboss
+
+```python
+import numpy as np
+
+emboss = np.array([
+    [-2, -1, 0],
+    [-1, 1, 1],
+    [0, 1, 2]
+])
+
+```
+
+### Sharpen
+
+```python
+import numpy as np
+
+sharpen = np.array([
+    [0, -1, 0],
+    [-1, 5, -1],
+    [0, -1, 0]
+])
+```

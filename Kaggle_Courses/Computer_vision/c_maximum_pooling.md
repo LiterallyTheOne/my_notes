@@ -44,3 +44,23 @@ in small distances.
 
 
 [//]: # (TODO Add images)
+
+## Global average pooling
+
+Calculates the average of each `feature map` (3rd shape),
+and put it instead of it.
+
+The result of `global average pooling`, helps
+our `dense network` to focus on more general
+features.
+
+One of the advantages of `global average pooling`
+is that the number of features are really small.
+
+```python
+from tensorflow import keras
+from keras import layers
+
+global_pool_layer = layers.GlobalAvgPool2D()
+
+```

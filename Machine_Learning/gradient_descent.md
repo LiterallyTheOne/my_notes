@@ -54,6 +54,7 @@ Applies the change on a mini-batch of data (certain number of examples).
 ## References
 
 https://towardsdatascience.com/gradient-descent-algorithm-a-deep-dive-cf04e8115f21
+
 https://towardsdatascience.com/batch-mini-batch-stochastic-gradient-descent-7a62ecba642a
 
 https://www.ibm.com/topics/gradient-descent#:~:text=Gradient%20descent%20is%20an%20optimization,each%20iteration%20of%20parameter%20updates.

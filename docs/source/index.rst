@@ -10,5 +10,7 @@ Welcome to my_notes's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   setting_up_sphinx
+
 
 

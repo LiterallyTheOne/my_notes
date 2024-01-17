@@ -11,6 +11,7 @@ Welcome to my_notes's documentation!
    :caption: Contents:
 
    setting_up_sphinx
+   docker_tips
 
 
 

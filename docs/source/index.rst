@@ -12,6 +12,7 @@ Welcome to my_notes's documentation!
 
    setting_up_sphinx
    docker_tips
+   setting_up_my_zsh
 
 
 

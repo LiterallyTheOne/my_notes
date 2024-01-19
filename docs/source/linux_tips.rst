@@ -21,3 +21,13 @@ See all the groups with their users
 .. code-block:: shell
 
     sudo vim /etc/group
+
+Format a partition to ext4
+--------------------------
+
+.. code-block:: shell
+
+    sudo mkfs -t ext4 /dev/sdxn
+
+    # example:
+    sudo mkfs -t ext4 /dev/sdb1

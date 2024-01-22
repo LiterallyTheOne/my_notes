@@ -1,6 +1,36 @@
 Linux tips
 ==========
 
+Copy
+----
+
+.. code-block:: shell
+
+    # copy a file
+    cp path destination
+
+    # copy directory
+    cp -r path destination
+
+Move (cut)
+----------
+
+.. code-block:: shell
+
+    mv path destination
+
+Remove
+------
+
+.. code-block:: shell
+
+    # remove a file
+    rm path
+
+    # remove a directory
+    rm -r path
+
+
 Add a ``user`` to a ``group``
 -----------------------------
 

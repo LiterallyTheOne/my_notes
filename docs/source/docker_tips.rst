@@ -23,3 +23,17 @@ in ``/etc/systemd/system/docker.service.d/http-proxy.conf``:
 
     sudo systemctl daemon-reload
     sudo systemctl restart docker.service
+
+List of containers
+------------------
+
+.. code-block:: shell
+
+    docker container ls
+
+Open a ``shell`` in a container
+-------------------------------
+
+.. code-block:: shell
+
+    docker container exec -ti container_name sh

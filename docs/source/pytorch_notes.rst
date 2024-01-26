@@ -92,7 +92,8 @@ Define train function
 
 .. code-block:: python
 
-    def train(model: nn.Module, data_loader: torch.utils.data.DataLoader, loss_fn: nn.Module, optimizer: torch.optim.Optimizer):
+
+    def train(model: nn.Module, data_loader: torch.utils.data.DataLoader, loss_fn: nn.Module, optimizer: torch.optim.Optimizer, device:str='cuda'):
         number_of_batches = len(data_loader)
         model.train()
         for i, (images, labels) in enumerate(data_loader):
@@ -116,7 +117,7 @@ Define test function
 
 .. code-block:: python
 
-    def test(model: nn.Module, data_loader: torch.utils.data.DataLoader, loss_fn: nn.Module) -> (torch.float, torch.float):
+    def test(model: nn.Module, data_loader: torch.utils.data.DataLoader, loss_fn: nn.Module, device:str='cuda') -> (torch.float, torch.float):
         data_size = len(data_loader.dataset)
         number_of_batches = len(data_loader)
 
@@ -146,8 +147,8 @@ Train the model and print test results
 
     for epoch in range(5):
         print(f'in epoch: {epoch}')
-        train(my_model, train_data_loader, loss_fn, optimizer)
-        accuracy, loss = test(my_model, test_data_loader, loss_fn)
+        train(my_model, train_data_loader, loss_fn, optimizer, device)
+        accuracy, loss = test(my_model, test_data_loader, loss_fn, device)
         print(f'accuracy: {accuracy:.2f}, loss: {loss:.2f}')
 
 Save the model

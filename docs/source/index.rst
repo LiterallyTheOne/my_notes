@@ -15,6 +15,7 @@ Welcome to my_notes's documentation!
    setting_up_my_zsh
    install_swap_file_in_arch_linux
    linux_tips
+   math
 
 
 

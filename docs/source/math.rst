@@ -8,6 +8,12 @@ Expected value
 
     E(x) = \sum_{i}^{n} x_i p(x_i)
 
+UV formula integral
+-------------------
+
+.. math::
+
+    \int udv = uv - \int vdu
 
 Derivatives and Integrals
 -------------------------

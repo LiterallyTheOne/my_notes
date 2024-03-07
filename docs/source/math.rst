@@ -28,3 +28,7 @@ Derivatives and Integrals
       - :math:`n>1`
       - :math:`nx^{n-1}`
       - :math:`\frac{1}{n+1}x^{n+1} + c`
+    * - :math:`ln(x)`
+      -
+      - :math:`\frac{1}{x}`
+      - :math:`x ln(x) - x + c`

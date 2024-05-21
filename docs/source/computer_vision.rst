@@ -25,3 +25,8 @@ Harris
 ------
 
 TODO
+
+LoG
+---
+
+TODO

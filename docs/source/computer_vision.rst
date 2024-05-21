@@ -18,3 +18,10 @@ TODO
 
 Template Matching
 -----------------
+
+TODO
+
+Harris
+------
+
+TODO

@@ -15,3 +15,6 @@ SIFT
 ----
 
 TODO
+
+Template Matching
+-----------------

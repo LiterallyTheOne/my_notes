@@ -14,3 +14,4 @@ Welcome to my_notes's documentation!
    computer_vision
    pytorch_notes
    install_arch_linux.rst
+   python
